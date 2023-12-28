@@ -51,7 +51,6 @@ section {
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
-    text-transform: uppercase;
 }
 
 .header .navbar a {
@@ -177,16 +176,10 @@ section {
     margin: 2rem 0 3rem;
 }
 
-.skill-heading {
-    text-align: center;
-    font-size: 4.5rem;
-    margin-bottom: 2.5rem;
-}
-
-.skill-content {
+#skill {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 
 .skill-content {
@@ -194,23 +187,5 @@ section {
 }
 
 .skill-content img {
-    width: 12vw;
-}
-
-.skill-logo {
-    background: var(--secondary-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    border: 0.2rem solid var(--bg-color);
-}
-
-.skill-logo:hover {
-    border-color: var(--primary-color);
-    transform: scale(1.02);
-}
-
-.skill-logo p {
-    font-size: 1.8rem;
-    margin-top: 1rem;
+    width: 10rem;
 }

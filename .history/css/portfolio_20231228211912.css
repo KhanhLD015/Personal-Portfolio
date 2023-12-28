@@ -15,7 +15,7 @@
     --bg-color: #17221d;
     --text-color: #fff;
     --primary-color: #35f2a5;
-    --secondary-color: #172e26;
+    --secondary-color: #172c25;
 }
 
 html {
@@ -51,7 +51,6 @@ section {
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
-    text-transform: uppercase;
 }
 
 .header .navbar a {
@@ -156,61 +155,4 @@ section {
 
 .about-img img {
     width: 35vw;
-}
-
-.about-heading {
-    text-align: center;
-    font-size: 4.5rem;
-}
-
-.about-content h2 {
-    text-align: left;
-    line-height: 1.2;
-}
-
-.about-content h3 {
-    font-size: 2.6rem;
-}
-
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-}
-
-.skill-heading {
-    text-align: center;
-    font-size: 4.5rem;
-    margin-bottom: 2.5rem;
-}
-
-.skill-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
-}
-
-.skill-content {
-    text-align: center;
-}
-
-.skill-content img {
-    width: 12vw;
-}
-
-.skill-logo {
-    background: var(--secondary-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    border: 0.2rem solid var(--bg-color);
-}
-
-.skill-logo:hover {
-    border-color: var(--primary-color);
-    transform: scale(1.02);
-}
-
-.skill-logo p {
-    font-size: 1.8rem;
-    margin-top: 1rem;
 }
