@@ -40,7 +40,7 @@ window.onscroll = () => {
 
 /*========================== scroll reveal ==========================*/
 ScrollReveal({
-  //   reset: true,
+  reset: true,
   distance: "80px",
   duration: 2000,
   delay: 200,
@@ -62,13 +62,3 @@ ScrollReveal().reveal(
     origin: "right",
   }
 );
-
-/*========================== typed js ==========================*/
-
-const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Web Designer"],
-  typeSpeed: 100,
-  backSpeed: 70,
-  backDelay: 1000,
-  loop: true,
-});

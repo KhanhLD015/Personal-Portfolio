@@ -85,19 +85,6 @@ section {
 
 .home-img img {
     width: 35vw;
-    animation: floatImage 4s ease-in-out infinite;
-}
-
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-2rem);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
 
 .home-content h3 {
@@ -466,7 +453,6 @@ section {
 
     .about {
         flex-direction: column-reverse;
-        padding-bottom: 7rem;
     }
 
     .about-img img {
@@ -474,12 +460,8 @@ section {
         margin-top: 4rem;
     }
 
-    .skill {
-        padding-bottom: 7rem;
-    }
-
     .skill-content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .project-content {
@@ -491,29 +473,10 @@ section {
     .skill-content {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .contact form .input-box input {
-        width: 100%;
-    }
 }
 
-@media (max-width: 450px) {
-    .html {
-        font-size: 50%;
-    }
-}
-
-@media (max-width: 365px) {
-    .home-img img {
-        width: 90vw;
-    }
-    .about-img img {
-        width: 90vw;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+@media (max-width: 576px) {
+    .skill-content {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

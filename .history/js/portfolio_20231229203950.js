@@ -68,7 +68,7 @@ ScrollReveal().reveal(
 const typed = new Typed(".multiple-text", {
   strings: ["Frontend Developer", "Web Designer"],
   typeSpeed: 100,
-  backSpeed: 70,
+  backSpeed: 60,
   backDelay: 1000,
   loop: true,
 });
